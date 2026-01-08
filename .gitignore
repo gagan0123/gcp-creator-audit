@@ -1,0 +1,12 @@
+# IDEs
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.csv
+audit_logs/
+*.log
