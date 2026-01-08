@@ -29,7 +29,6 @@ First, ensure the script is executable:
 
 ```
 chmod +x audit.sh
-
 ```
 
 ### 2. Basic Run
@@ -38,7 +37,6 @@ Run the script by providing your Organization ID. The script will automatically 
 
 ```
 ./audit.sh --org 123456789012
-
 ```
 
 ### 3. Custom Output
@@ -47,7 +45,6 @@ Specify a custom filename for the CSV report using the `--out` flag.
 
 ```
 ./audit.sh --org 123456789012 --out my-audit-report.csv
-
 ```
 
 ### 4. Help Menu
@@ -56,7 +53,6 @@ View all available options:
 
 ```
 ./audit.sh --help
-
 ```
 
 ## 🧠 Design Choices & Architecture
